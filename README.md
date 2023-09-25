@@ -1,4 +1,4 @@
-* # pico-oiler
+# pico-oiler
 DIY motorcycle chain oiler
 
 This repository describes a small device to be mounted on a motorcycle triggering emission of oil drops directly onto the drive chain of the motorcycle.
