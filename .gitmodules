@@ -1,0 +1,9 @@
+[submodule "external/microdot"]
+	path = external/microdot
+	url = https://github.com/miguelgrinberg/microdot.git
+[submodule "external/utemplate"]
+	path = external/utemplate
+	url = https://github.com/pfalcon/utemplate.git
+[submodule "external/micropyGPS"]
+	path = external/micropyGPS
+	url = https://github.com/inmcm/micropyGPS

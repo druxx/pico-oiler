@@ -1,4 +1,5 @@
 from microdot_asyncio import Microdot, send_file
+from microdot_utemplate import render_template
 
 app = Microdot()
 
@@ -6,6 +7,11 @@ app = Microdot()
 @app.route('/')
 async def index(req):
     return send_file('html/index.html')
+
+@app.route('/home.tpl')
+async def home(req):
+    gps_status = 'starting'
+    return render_template('home.tpl', gps=gps_status)
 
 @app.route('/<path:path>')
 async def static(request, path):
